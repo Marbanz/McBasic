@@ -39,26 +39,6 @@ commands:
     aliases: setsp
     permission: mcbasic.setspawn
 
-  tpa:
-    description: request to teleport to a player
-    aliases: []
-    permission: mcbasic.tpa
-
-  tpaccept:
-    description: accept the teleport request
-    aliases: tpac
-    permission: mcbasic.tpaccept
-
-  tpdeny:
-    description: deny the teleport request
-    aliases: tpdn
-    permission: mcbasic.tpdeny
-
-  tpcancel:
-    description: cancel the teleport request
-    aliases: tpcn
-    permission: mcbasic.tpcancel
-
   warp:
     description: teleport to a warp
     aliases: wr
