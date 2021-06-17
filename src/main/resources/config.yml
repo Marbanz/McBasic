@@ -1,0 +1,5 @@
+settings:
+ motd: true
+ join-quit_message: true
+ server_name: Test Server
+ update_checker: true

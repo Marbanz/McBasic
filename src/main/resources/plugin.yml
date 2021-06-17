@@ -1,0 +1,91 @@
+name: MCBasic
+version: ${project.version}
+main: me.marbanz.mcbasic.Main
+authors: [ Marbanz ]
+description: A simple plugin for Minecraft
+website: https://www.spigotmc.org/resources/mcbasic.85523/
+commands:
+  fly:
+    description: allow a player to fly
+    aliases: []
+    permission: mcbasic.fly
+
+  gamemode:
+    description: set the gamemode of a player
+    aliases: gm
+    permission: mcbasic.gamemode
+
+  heal:
+    description: heal a player
+    aliases: []
+    permission: mcbasic.heal
+
+  feed:
+    description: feed a player
+    aliases: []
+    permission: mcbasic.feed
+
+  playertp:
+    description: teleport to a player
+    aliases: ptp
+    permission: mcbasic.playertp
+
+  tphere:
+    description: teleport a player to you
+    aliases: tph
+    permission: mcbasic.tphere
+
+  spawn:
+    description: teleport to spawn
+    aliases: sp
+    permission: mcbasic.spawn
+
+  setspawn:
+    description: set the spawn
+    aliases: setsp
+    permission: mcbasic.setspawn
+
+  warp:
+    description: teleport to a warp
+    aliases: wr
+    permission: mcbasic.warp
+
+  setwarp:
+    description: set a warp
+    aliases: setwr
+    permission: mcbasic.setwarp
+
+  delwarp:
+    description: delete a warp
+    aliases: delwr
+    permission: mcbasic.delwarp
+
+  warplist:
+    description: see the list of the warps
+    aliases: wl
+    permission: mcbasic.warplist
+
+  ping:
+    description: get the ping of a player
+    aliases: ms
+    permission: mcbasic.ping
+
+  boom:
+    description: spawn a tnt under a player
+    aliases: explode
+    permission: mcbasic.boom
+
+  home:
+    description: teleport to home
+    aliases: h
+    permission: mcbasic.home
+
+  sethome:
+    description: set the home
+    aliases: seth
+    permission: mcbasic.sethome
+
+  tpwarp:
+    description: teleport a player to a warp
+    aliases: tpwr
+    permission: mcbasic.tpwarp
