@@ -3,7 +3,6 @@ version: ${project.version}
 main: me.marbanz.mcbasic.Main
 authors: [ Marbanz ]
 description: A simple plugin for Minecraft
-api-version: 1.17
 website: https://www.spigotmc.org/resources/mcbasic.85523/
 commands:
   fly:
